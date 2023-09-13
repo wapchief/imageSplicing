@@ -4,8 +4,8 @@ from reportlab.pdfgen import canvas
 import os
 
 # 输入图片文件夹和输出PDF文件名
-input_folder = ''
-output_pdf = ''
+input_folder = 'assets/'
+output_pdf = 'output.pdf'
 
 # 获取所有图片文件
 image_files = [f for f in os.listdir(input_folder) if f.endswith('.png') or f.endswith('.jpg')]
